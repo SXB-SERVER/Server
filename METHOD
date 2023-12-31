@@ -1,0 +1,5 @@
+def M1():
+	a = "[FBAN/FB4A;FBAV/"+str(random.randint(49,66))+'.0.0.'+str(random.randrange(20,49))+str(random.randint(11,99)) +";FBBV/"+str(random.randint(11111111,77777777))
+	b = ";[FBAN/Orca-Android;FBAV/196.0.0.78;FBPN/com.facebook.orca;FBLC/es_MX;FBBV/295172858;FBCR/Mexico - Telcel;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/Redmi Pro;FBSV/6.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=3.0,width=1080,height=1920};FB_FW/1;FBRV/467355197;]"
+	ua = a+b
+	return ua
