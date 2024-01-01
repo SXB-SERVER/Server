@@ -1,3 +1,3 @@
-def M4():
+def M2():
     ua = f"[FBAN/FB4A;FBAV/"+str(random.randint(11,99))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(11,99))+";FBBV/"+str(random.randint(11111111,77777777))+"[FBAN/Orca-Android;FBAV/196.0.0.76;FBPN/com.facebook.orca;FBLC/pt_BR;FBBV/178386745;FBCR/VIVO;FBMF/vivo;FBBD/vivo;FBDV/x70;FBSV/2.2.2;FBCA/armeabi-v7a:armeabi;FBDM/{density=0.75,width=240,height=400};FB_FW/1;FBRV/359046015;]"+"[FBAN/Orca-Android;FBAV/196.0.0.72;FBPN/com.facebook.orca;FBLC/fr_FR;FBBV/138832021;FBCR/Orange;FBMF/Xiaomi;FBBD/Xiaomi;FBDV/M1804C3DG;FBSV/8.1.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.265,width=720,height=1440};FB_FW/1;FBRV/323037332;]"+"[FBAN/Orca-Android;FBAV/196.0.0.78;FBPN/com.facebook.orca;FBLC/en_GB;FBBV/187470110;FBCR/Telenor;FBMF/Realme;FBBD/Realme;FBDV/RMX2185;FBSV/10.0.0;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.365,width=720,height=1560};FB_FW/1;FBRV/417026708;]"
     return ua
